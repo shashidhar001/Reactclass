@@ -4,9 +4,9 @@ function App(){
   
   return(
     <>
-      <h1 className="heading">Hello World</h1>
+      <h1 className="heading">kya hal chal hai bete</h1>
       <p className="paragraph">This is my first React project.</p>
-    
+      
     </>
   );
 }
