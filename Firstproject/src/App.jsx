@@ -1,7 +1,7 @@
 import React from "react";
 import backgroundImg from "./assets/bg-cars.jpg";
 import orangeCarImg from "./assets/orange-car.jpg";
-import "./App.css"; // make sure this line is here
+import "./App.css"; 
 
 function App() {
   return (

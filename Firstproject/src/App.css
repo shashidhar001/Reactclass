@@ -1,3 +1,8 @@
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
 .login-container {
   height: 100vh;
   display: flex;
