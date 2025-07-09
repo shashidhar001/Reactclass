@@ -1,42 +1,21 @@
-import React from "react";
-import backgroundImg from "./assets/bg-cars.jpg";
-import orangeCarImg from "./assets/orange-car.jpg";
-import "./App.css"; 
+import React from 'react'
+
+import './App.css'
+import Page1 from './Pages/Page1'
+import Page3 from './assets/Classcomponent/Page3'
+import Parentcomponent from './assets/Propscomponent/Parentcomponent'
+// import Props1 from './assets/Propscomponent/Props1'
+import Childcomponent from './assets/Propscomponent/Childcomponent'
+import Book1 from './Props/Book1'
+
 
 function App() {
   return (
-    <div
-      className="login-container"
-      style={{
-        backgroundImage: `url(${backgroundImg})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
-    >
-      <div className="login-card">
-        <div className="left-panel">
-          <img src={orangeCarImg} alt="Orange Car" className="car-image" />
-        </div>
-        <div className="right-panel">
-          <h1 className="brand">
-            <span className="blue">Car</span><span className="red">space</span>
-          </h1>
-          <div className="login-form">
-            <div className="button-group">
-              <button className="login-btn active">Login</button>
-              <button className="signup-btn">Sign up</button>
-            </div>
-            <label htmlFor="mobile">Enter your Mobile Number</label>
-            <div className="mobile-input">
-              <span>+91</span>
-              <input type="text" id="mobile" placeholder="Enter number" />
-            </div>
-            <button className="continue-btn">Continue</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+    <>
+  <Book1/>
+      
+    </>
+  )
 }
 
-export default App;
+export default App
